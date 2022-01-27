@@ -1,0 +1,58 @@
+.signInContainer{
+    background-image: url('bgimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0px 100px 50px;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+} 
+.login{
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 25%;
+    padding: 50px;
+    border-radius: 20px;
+}
+@media (max-width: 700px){
+    .login{
+        width: auto;
+    }
+    .signInContainer{
+        padding: 10px;
+    }
+}
+#account{
+    margin: auto;
+    color: whitesmoke;
+}
+#input{
+    margin: 50px 0px 20px auto;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px; 
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+#btn{
+    /* margin: 50px; */
+    border-radius: 5px;   
+    border: none;
+    outline: none;
+    background-color: orange;
+    width: 255px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;    
+    cursor: pointer;
+}
+a{
+    color: orange;
+}
+#tc{
+    color: whitesmoke;
+}

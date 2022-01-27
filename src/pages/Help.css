@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.helpmenu{
+    display: block;
+} 
+.toogle{
+    padding: 10px 50px 10px 50px;
+}
+.HelpHeading{
+    font-size: 50px;
+}
+.desc{
+    width: auto;
+    margin: auto;
+} 
+@media (max-width: 700px) {
+    .helpmenu{
+        margin: 0px;
+    }
+    .HelpHeading{
+        font-size: 30px;
+    }
+    .toogle{
+        padding: 10px 20px 10px 20px;
+    }
+  }
+.helpme{
+    background-color: rgb(58, 58, 114);
+    padding: 80px 50px 80px 50px;
+    color: whitesmoke;
+}
+.toogleOne{
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+    
+}
+.one, p{
+    /* margin: 0px 30px 0px 30px; */
+    margin: 20px;
+}
+.one:hover{
+    color: rgb(241, 126, 126);
+}

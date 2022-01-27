@@ -1,0 +1,12 @@
+.searchDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35em;
+}
+input{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}

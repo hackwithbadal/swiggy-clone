@@ -1,0 +1,48 @@
+.OfferHeading{
+    background-color: rgb(58, 58, 114);
+    padding: 80px 50px 80px 50px;
+    color: whitesmoke;
+}
+.headingOne{
+    font-size: 50px; 
+}
+#para{
+    margin: auto;
+}
+.availableOffer{
+    padding: 20px 50px 10px 70px;
+    
+}
+.cardOffer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 50px 80px 50px;
+}
+#OfferPara{
+    margin: auto;
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    padding: 20px; 
+    margin: 20px;
+}
+#OfferCode{
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    background-color: rgb(255, 242, 251);
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+}
+#showOffer{
+    background: transparent;
+    color: orange;
+    border: 2px solid orange;
+    margin: 30px 0px 10px 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+@media (max-width: 700px){
+    .headingOne{
+        font-size: 30px; 
+    }
+}
