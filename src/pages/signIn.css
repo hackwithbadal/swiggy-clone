@@ -6,7 +6,7 @@
     background-position: center;
     background-size: cover;
 }
-.heading{
+.heading ,.SignHeading{
     color: white;
     font-weight: bold;
 } 
@@ -16,17 +16,9 @@
     padding: 50px;
     border-radius: 20px;
 }
-@media (max-width: 700px){
-    .login{
-        width: auto;
-    }
-    .signInContainer{
-        padding: 10px;
-    }
-}
-#account{
+#account ,#manageAccount{
     margin: auto;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
 }
 #input{
     margin: 50px 0px 20px auto;
@@ -50,9 +42,46 @@
     font-size: 20px;    
     cursor: pointer;
 }
-a{
-    color: orange;
-}
 #tc{
     color: whitesmoke;
+}
+#tandc{
+    color: rgb(187, 146, 69);
+}
+#tndc ,#SignTC{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(207, 153, 53);
+}
+#manageAccount{
+    margin: auto;
+}
+#SignInput{
+    margin: 10px 0px 20px auto;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px; 
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+#registerAccount{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 25%;
+    padding: 50px;
+    border-radius: 20px;
+}
+@media (max-width: 700px){
+    .login{
+        width: auto;
+    }
+    .signInContainer{
+        padding: 10px;
+    }
+    #registerAccount{
+        width: auto;
+    }
 }

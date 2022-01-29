@@ -1,5 +1,15 @@
+.cartContainer{
+    text-align: center;
+    color: rgba(27, 27, 27, 0.897);
+    padding: 30px;
+}
+.cartContainer img{
+    height: 300px;
+    width: 350px;
+    margin: 50px;
+}
 .cart{
-    background-color: rgb(58, 58, 114);
+    background-color: rgba(58, 58, 114, 0.753);
     padding: 50px;
     font-size: 27px;
     color: whitesmoke;
@@ -8,8 +18,31 @@
     margin: 0px;
     font-size: 20px;
 }
+.btn1{
+    padding: 10px 40px 10px 40px;
+    font-size: 15px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+}
+#promoCode{
+    color: rgba(216, 21, 21, 0.932);
+    margin: auto;
+}
+.cartItem a{
+    padding: 10px;
+    font-size: 15px;
+    background-color: orange;
+    color: whitesmoke;
+}
 @media (max-width: 700px){
     .cart{
         font-size: 20px;
+    }
+    .cartContainer img{
+        height: 100px;
+        width: 150px;
+        margin: 20px;
     }
 }

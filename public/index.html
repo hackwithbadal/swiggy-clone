@@ -18,8 +18,21 @@
 </head>
 
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <script>
+    /* return content of input field to variable text */
+    var text = document.getElementById("OfferCode");
+
+    /* return button to variable btn */
+    var btn = document.getElementById("showOffer");
+
+    /* call function on button click */
+    btn.onclick = function () {
+      text.select();
+      document.execCommand("copy");
+    }
+  </script>
 </body>
 
 </html>

@@ -1,14 +1,22 @@
 import React from 'react';
 import './Cart.css'
+import { Link } from 'react-router-dom';
 
 function Cart() {
-  return <div  className='MyCart'>
+  return <div className='MyCart'>
     <div className='cart'>
       <h1 className='CartHeading'>Secure Checkout</h1>
       <p className='CartDesc'>Your cart</p>
     </div>
-    <div className='cartItem'>
-      <h5>Your Cart is Empty</h5>
+    <div className='cartContainer'>
+      <div className='cartItem'>
+        <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/2xempty_cart_yfxml0" alt="" />
+        <h2>
+          Your cart is empty
+        </h2>
+        <p>You can go to home page to view more restaurants</p>
+        <Link to="/home" ><a href="/home">SEE RESTAURANTS NEAR YOU</a></Link>
+      </div>
     </div>
   </div>;
 }
