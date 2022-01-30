@@ -1,0 +1,127 @@
+.restaurantHeading{
+    background-color: rgba(34, 33, 33, 0.74);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px 60px 0px;
+}
+.backBtn{
+    background-color: rgba(34, 33, 33, 0.74);
+    padding: 10px;
+}
+.backBtn li{
+    /* background-color: black; */
+    color: yellow;
+}
+
+.ImgHeading img{ 
+    padding: 0px 50px 0px 100px;
+    height:200px;
+    width: 250px;
+}
+.restaurantInfo{
+    padding: 0px 100px 0px 0px;
+    width: 600px;
+}
+.obj{
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+.HotelNameInfo{
+    color: rgba(255, 255, 255);
+    font-size: 50px;
+}
+#Hotelrating h3 ,#FoodTime h3 ,#Charges h3{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Hotelrating p ,#FoodTime p ,#Charges p{
+    color: rgba(255, 255, 255, 0.747);
+    margin: 10px 0px 0px 0px;
+}
+.hotelDescInfo{
+    padding: 10px 0px 10px 0px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.RestaurantsOffer{
+    height: 100px;
+    width: 320px;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+}
+#promoCodeInfo{
+    color: rgba(241, 228, 207, 0.856);
+    padding: 20px;
+    font-family: sans-serif;
+}
+.AvilableFood{
+    padding: 50px 200px 50px 200px;
+}
+.AvilableFood h1{
+    text-align: center;
+}
+#item1,#item2,#item3,#item4,#item5,#item6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#itemnames{
+    border-left: 1px solid rgba(0, 0, 0, 0.541);
+}
+#AddToCart{
+    border-right: 1px solid rgba(0, 0, 0, 0.575);
+}
+.ItemImage img{
+    height: 100px;
+    width: 150px;
+}
+.ItemImage{
+    border-bottom: 1px solid rgba(43, 41, 41, 0.644);
+
+}
+.itemName,.ItemImage,.AddToCart{
+    /* margin: 50px; */
+    padding: 50px;
+}
+.CheckOutBtn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin: 20px; */
+    padding: 40px;
+}
+#CheckOutBtn{
+    padding-top: 20px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: rgba(106, 160, 25, 0.884);
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgba(236, 97, 16, 0.836);
+}
+@media (max-width:1200px) {
+    .restaurantHeading{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .restaurantHeading img{
+        padding: 0px;
+    }
+    .HotelName{
+        font-size: 30px;
+    }
+    .restaurantInfo{
+        padding: 20px;
+        text-align: center;
+    }
+    .AvilableFood{
+        margin: 0px;
+        padding: 0px;
+    }
+
+}

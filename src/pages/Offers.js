@@ -1,10 +1,13 @@
+import { Helmet } from 'react-helmet';
 import React from 'react';
 import './offers.css'
-import copy from "copy-to-clipboard";  
 
 function Offers() {
-  
+
   return <div className='OfferContainer'>
+    <div>
+      <Helmet><title>Swiggy | Offers</title></Helmet>
+    </div>
     <div className='OfferHeading'>
       <h1 className='headingOne'>Offers For You</h1>
       <p id='para'>Explore top deals and offers exclusively for you!</p>
@@ -17,7 +20,7 @@ function Offers() {
         <h2 id='OfferCode'>UUJIK744</h2>
         <h4>Get 20% discount using Kotak Bank Cards</h4>
         <p id='OfferPara'>Maximum discount up to ₹125 on orders above ₹500</p>
-        <button id='showOffer' onClick={copy(document.getElementById("OfferCode"))}>COPY CODE</button>
+        <button id='showOffer'>COPY CODE</button>
       </div>
       <div className='card'>
         <h2 id='OfferCode'>DFHDU8D</h2>
@@ -29,28 +32,28 @@ function Offers() {
         <h2 id='OfferCode'>PSJSM85S</h2>
         <h4>Get 20% discount using RuPay Platinum Debit Cards</h4>
         <p id='OfferPara'>Maximum discount up to ₹100 on orders above ₹129
-</p>
+        </p>
         <button id='showOffer'>COPY CODE</button>
       </div>
       <div className='card'>
         <h2 id='OfferCode'>DETD855</h2>
         <h4>Get 30% discount using IDFC FIRST Bank Cards</h4>
         <p id='OfferPara'>Maximum discount up to ₹125 on orders above ₹299
-</p>
+        </p>
         <button id='showOffer'>COPY CODE</button>
       </div>
       <div className='card'>
         <h2 id='OfferCode'>DOWUD855</h2>
         <h4>Get 20% discount using Kotak Bank CardsGet 20% discount using IndusInd Bank Cards</h4>
         <p id='OfferPara'>Maximum discount up to ₹200 on orders above ₹600
-</p>
+        </p>
         <button id='showOffer'>COPY CODE</button>
       </div>
       <div className='card'>
         <h2 id='OfferCode'>OFOWU55</h2>
         <h4>Get 30% discount using slice Visa card</h4>
         <p id='OfferPara'>Maximum discount up to ₹100 on orders above ₹249
-</p>
+        </p>
         <button id='showOffer'>COPY CODE</button>
       </div>
       <div className='card'>
@@ -63,14 +66,14 @@ function Offers() {
         <h2 id='OfferCode'>OWUN652</h2>
         <h4>Get 30% discount using Uni Pay 1/3rd Card</h4>
         <p id='OfferPara'>Maximum discount up to ₹150 on orders above ₹299
-</p>
+        </p>
         <button id='showOffer'>COPY CODE</button>
       </div>
       <div className='card'>
         <h2 id='OfferCode'>JDHS855</h2>
         <h4>Get 40% discount using Axis Bank Select Credit Cards</h4>
         <p id='OfferPara'>Maximum discount up to ₹200 on orders above ₹400
-</p>
+        </p>
         <button id='showOffer'>COPY CODE</button>
       </div>
     </div>
@@ -82,21 +85,21 @@ function Offers() {
         <h2 id='OfferCode'>UTYDGJ52</h2>
         <h4>Get 15% discount using SBI Credit Cards</h4>
         <p id='OfferPara'>Maximum discount up to ₹100 on orders above ₹400
-</p>
+        </p>
         <button id='showOffer'>COPY CODE</button>
       </div>
       <div className='card'>
         <h2 id='OfferCode'>APWJ855</h2>
         <h4>Get 15% discount using Standard Chartered Bank Cards</h4>
         <p id='OfferPara'>Maximum discount up to ₹150 on orders above ₹600
-</p>
+        </p>
         <button id='showOffer'>COPY CODE</button>
       </div>
       <div className='card'>
         <h2 id='OfferCode'>QIOEDJK8</h2>
         <h4>Get 20% discount using Federal Bank Cards</h4>
         <p id='OfferPara'>Maximum discount up to ₹125 on orders above ₹500
-</p>
+        </p>
         <button id='showOffer'>COPY CODE</button>
       </div>
     </div>

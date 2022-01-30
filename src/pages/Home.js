@@ -1,8 +1,13 @@
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import React from 'react';
 import './Home.css'
 
 function Home() {
   return <div className='MainHome'>
+    <div>
+      <Helmet><title>Swiggy | Home | Badal</title></Helmet>
+    </div>
     <div className='HomeContainer'>
       <h1 className='HomeHeading'>Find The Best food For You</h1>
       <p className='HomeDesc'>stay healthy ,stay fit</p>
@@ -18,7 +23,8 @@ function Home() {
           <div>100RS FOR TWO</div>
         </div>
         <p id='promoCode'>10% in master card</p>
-        <button className='ItemBtn'>QUICK VIEW</button>
+
+        <li id='ItemBtn'><Link to="/Restaurants1">QUICK VIEW</Link></li>
       </div>
       <div className='foodItem'>
         <img src="https://hackwithbadal.github.io/foodImages/img2.jpg" alt="loading" />
@@ -30,7 +36,9 @@ function Home() {
           <div>230RS FOR TWO</div>
         </div>
         <p id='promoCode'>40% in SBI credit card</p>
-        <button className='ItemBtn'>QUICK VIEW</button>
+        <li id='ItemBtn'><Link to="/Restaurants2">QUICK VIEW</Link></li>
+
+        {/* <button className='ItemBtn'>QUICK VIEW</button> */}
       </div>
       <div className='foodItem'>
         <img src="https://hackwithbadal.github.io/foodImages/img3.jpg" alt="loading" />
@@ -38,12 +46,13 @@ function Home() {
         <p className='hotelDesc '>Fast Food , pizza</p>
         <div className='obj'>
           <div>3.5</div>
-          <div>55min</div>
+          <div>25min</div>
           <div>160RS FOR TWO</div>
         </div>
         <p id='promoCode'>60% on bharat pe</p>
+        <li id='ItemBtn'><Link to="/Restaurants3">QUICK VIEW</Link></li>
 
-        <button className='ItemBtn'>QUICK VIEW</button>
+        {/* <button className='ItemBtn'>QUICK VIEW</button> */}
       </div>
       <div className='foodItem'>
         <img src="https://hackwithbadal.github.io/foodImages/img4.jpg" alt="loading" />
@@ -55,8 +64,9 @@ function Home() {
           <div>300RS FOR TWO</div>
         </div>
         <p id='promoCode'>5% in fampay</p>
+        <li id='ItemBtn'><Link to="/Restaurants4">QUICK VIEW</Link></li>
 
-        <button className='ItemBtn'>QUICK VIEW</button>
+        {/* <button className='ItemBtn'>QUICK VIEW</button> */}
       </div>
       <div className='foodItem'>
         <img src="https://hackwithbadal.github.io/foodImages/img5.jpg" alt="loading" />
@@ -64,25 +74,27 @@ function Home() {
         <p className='hotelDesc '>Fruits , Juice</p>
         <div className='obj'>
           <div>4.9</div>
-          <div>58min</div>
+          <div>45min</div>
           <div>700RS FOR TWO</div>
         </div>
-        <p id='promoCode'>95% in golden card</p>
+        <p id='promoCode'>35% off on golden card</p>
+        <li id='ItemBtn'><Link to="/Restaurants5">QUICK VIEW</Link></li>
 
-        <button className='ItemBtn'>QUICK VIEW</button>
+        {/* <button className='ItemBtn'>QUICK VIEW</button> */}
       </div>
       <div className='foodItem'>
         <img src="https://hackwithbadal.github.io/foodImages/img6.jpg" alt="loading" />
         <h3 className='HotelName'>V.I.P Family Restaurant.</h3>
         <p className='hotelDesc '>Veg , Non-veg </p>
         <div className='obj'>
-          <div>4.9</div>
+          <div>4.1</div>
           <div>35min</div>
-          <div>440RS FOR TWO</div>
+          <div>400RS FOR TWO</div>
         </div>
         <p id='promoCode'>25%  on swiggy subscrition</p>
+        <li id='ItemBtn'><Link to="/Restaurants6">QUICK VIEW</Link></li>
 
-        <button className='ItemBtn'>QUICK VIEW</button>
+        {/* <button className='ItemBtn'>QUICK VIEW</button> */}
       </div>
       <div className='foodItem'>
         <img src="https://hackwithbadal.github.io/foodImages/img7.jpg" alt="loading" />
@@ -94,8 +106,9 @@ function Home() {
           <div>200RS FOR TWO</div>
         </div>
         <p id='promoCode'>20% in rupay credit card</p>
+        <li id='ItemBtn'><Link to="/Restaurants7">QUICK VIEW</Link></li>
 
-        <button className='ItemBtn'>QUICK VIEW</button>
+        {/* <button className='ItemBtn'>QUICK VIEW</button> */}
       </div>
       <div className='foodItem'>
         <img src="https://hackwithbadal.github.io/foodImages/img8.jpg" alt="loading" />
@@ -107,8 +120,9 @@ function Home() {
           <div>230RS FOR TWO</div>
         </div>
         <p id='promoCode'>100% off for VIPS</p>
+        <li id='ItemBtn'><Link to="/Restaurants8">QUICK VIEW</Link></li>
 
-        <button className='ItemBtn'>QUICK VIEW</button>
+        {/* <button className='ItemBtn'>QUICK VIEW</button> */}
       </div>
     </div>
   </div>;

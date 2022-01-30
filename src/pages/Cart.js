@@ -1,9 +1,13 @@
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import React from 'react';
 import './Cart.css'
-import { Link } from 'react-router-dom';
 
 function Cart() {
   return <div className='MyCart'>
+    <div>
+      <Helmet><title>Swiggy | Cart</title></Helmet>
+    </div>
     <div className='cart'>
       <h1 className='CartHeading'>Secure Checkout</h1>
       <p className='CartDesc'>Your cart</p>

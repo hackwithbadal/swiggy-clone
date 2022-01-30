@@ -1,8 +1,12 @@
+import { Helmet } from 'react-helmet';
 import React from 'react';
 import "./signIn.css"
 
 function SignIn() {
   return <div className='signInContainer'>
+    <div>
+      <Helmet><title>Swiggy | SignIn</title></Helmet>
+    </div>
     <div className='login' id='TOlogin'>
       <h1 className='heading'>Login</h1>
       <p id='account'>or<a id='tndc' onClick={() => { document.getElementById("registerAccount").style.display = 'block'; document.getElementById("TOlogin").style.display = 'none' }} href="#registerAccount">create new account</a></p>
