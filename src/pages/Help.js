@@ -11,7 +11,7 @@ function Help() {
   const [showFive, showitemFive] = React.useState(false)
   return <div className='helpmenu'>
     <div>
-      <Helmet><title>Swiggy | Help</title></Helmet>
+      <Helmet><title>Help |Swiggy</title></Helmet>
     </div>
     <div className='helpme'>
       <h1 className='HelpHeading'>Help & Support</h1>

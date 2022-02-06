@@ -6,7 +6,7 @@ import './Cart.css'
 function Cart() {
   return <div className='MyCart'>
     <div>
-      <Helmet><title>Swiggy | Cart</title></Helmet>
+      <Helmet><title>Cart | Swiggy</title></Helmet>
     </div>
     <div className='cart'>
       <h1 className='CartHeading'>Secure Checkout</h1>

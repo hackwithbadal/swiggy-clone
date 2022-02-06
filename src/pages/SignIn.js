@@ -5,7 +5,7 @@ import "./signIn.css"
 function SignIn() {
   return <div className='signInContainer'>
     <div>
-      <Helmet><title>Swiggy | SignIn</title></Helmet>
+      <Helmet><title>SignIn | Swiggy</title></Helmet>
     </div>
     <div className='login' id='TOlogin'>
       <h1 className='heading'>Login</h1>

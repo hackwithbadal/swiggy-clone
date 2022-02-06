@@ -26,7 +26,7 @@ function Home() {
     <div className='itemsContainer'>
       {
         raw.map(dar => {
-          return (
+          return ( 
 
             <div className='foodItem'>
               <h6>{dar._id}</h6>
@@ -40,7 +40,7 @@ function Home() {
               </div>
               <p id='promoCode'>{dar.restaurants[0].food[0].offer}</p>
               {/* <li id='ItemBtn'><Link to="/Restaurants1">QUICK VIEW</Link></li> */}
-              <Link to="/Restaurants1"><button key={dar._id} onClick={() => dispatch(changeid(dar))}>QUICK VIEW</button></Link>
+              <Link to="/Restaurants1"><button id='HomeButton' key={dar._id} onClick={() => dispatch(changeid(dar))}>QUICK VIEW</button></Link>
               {/* <a href='/Restaurants1' id='ItemBtn'><button>Click here</button></a> */}
             </div>)
         })

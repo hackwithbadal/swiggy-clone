@@ -13,7 +13,7 @@
 .obj{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin: 10px 0px 10px 0px;
 }
 .HotelName{
@@ -36,4 +36,16 @@
 }
 .hotelDesc{
     margin: auto;
+}
+#HomeButton{
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    height: 70px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.623);
+}
+#HomeButton:hover{
+    cursor: pointer;
+    color: rgba(124, 68, 15, 0.932);
 }

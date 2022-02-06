@@ -47,7 +47,7 @@ function changeWord13(){
 function Offers() {
   return <div className='OfferContainer'>
     <div>
-      <Helmet><title>Swiggy | Offers</title></Helmet>
+      <Helmet><title>Offers | Swiggy</title></Helmet>
     </div>
     <div className='OfferHeading'>
       <h1 className='headingOne'>Offers For You</h1>

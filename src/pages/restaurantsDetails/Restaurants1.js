@@ -61,7 +61,7 @@ function Restaurants1() {
           <img src={id.restaurants[0].food[0].food_imgurl} alt="loading" />
         </div>
         <div className='AddToCart' id='AddToCart'>
-          <button id='btn' onClick={CallAlert}>ADD TO CART</button>
+          <button id='btn-rest' onClick={CallAlert}>ADD TO CART</button>
         </div>
       </div>
       <div id='item2' >
@@ -73,7 +73,7 @@ function Restaurants1() {
           <img src={id.restaurants[0].food[1].food_imgurl} alt="loading" />
         </div>
         <div className='AddToCart' id='AddToCart'>
-          <button id='btn' onClick={CallAlert}>ADD TO CART</button>
+          <button id='btn-rest' onClick={CallAlert}>ADD TO CART</button>
         </div>
       </div>
       <div id='item3' >
@@ -85,7 +85,7 @@ function Restaurants1() {
           <img src={id.restaurants[0].food[2].food_imgurl} alt="loading" />
         </div>
         <div className='AddToCart' id='AddToCart'>
-          <button id='btn' onClick={CallAlert}>ADD TO CART</button>
+          <button id='btn-rest' onClick={CallAlert}>ADD TO CART</button>
         </div>
       </div>
       <div id='item4' >
@@ -97,7 +97,7 @@ function Restaurants1() {
           <img src={id.restaurants[0].food[3].food_imgurl} alt="loading" />
         </div>
         <div className='AddToCart' id='AddToCart'>
-          <button id='btn' onClick={CallAlert}>ADD TO CART</button>
+          <button id='btn-rest' onClick={CallAlert}>ADD TO CART</button>
         </div>
       </div>
       <div id='item5' >
@@ -109,7 +109,7 @@ function Restaurants1() {
           <img src={id.restaurants[0].food[4].food_imgurl} alt="loading" />
         </div>
         <div className='AddToCart' id='AddToCart'>
-          <button id='btn' onClick={CallAlert}>ADD TO CART</button>
+          <button id='btn-rest' onClick={CallAlert}>ADD TO CART</button>
         </div>
       </div>
       <div id='item6' >
@@ -121,7 +121,7 @@ function Restaurants1() {
           <img src={id.restaurants[0].food[5].food_imgurl} alt="loading" />
         </div>
         <div className='AddToCart' id='AddToCart'>
-          <button id='btn' onClick={CallAlert}>ADD TO CART</button>
+          <button id='btn-rest' onClick={CallAlert}>ADD TO CART</button>
         </div>
       </div>
     </div>

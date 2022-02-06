@@ -64,7 +64,7 @@
 }
 #item1,#item2,#item3,#item4,#item5,#item6{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 .ItemImage img{
@@ -76,7 +76,7 @@
 
 }
 .itemName,.ItemImage,.AddToCart{
-    /* margin: 50px; */
+    align-self:center;
     padding: 50px;
 }
 .CheckOutBtn{
@@ -94,7 +94,15 @@
     background-color: rgba(106, 160, 25, 0.884);
     cursor: pointer;
 }
-#btn:hover{
+#btn-rest{
+    border: none;
+    height: 50px;
+    width: 200px;
+    color: ora;
+    background-color: rgba(236, 167, 38, 0.884);
+    cursor: pointer;
+}
+#btn-rest:hover{
     background-color: rgba(236, 97, 16, 0.836);
 }
 @media (max-width:1200px) {
@@ -116,6 +124,28 @@
     .AvilableFood{
         margin: 0px;
         padding: 0px;
+    }
+    #item1,#item2,#item3,#item4,#item5,#item6{
+        padding: 40px 0px 40px 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    #btn-rest{
+        border: none;
+        height: 30px;
+        width: 100px;
+        color: ora;
+        background-color: rgba(236, 167, 38, 0.884);
+        cursor: pointer;
+    }
+    .itemName,.ItemImage,.AddToCart{
+        padding: 0px;
+    }
+    .ItemImage img{
+        height: 70px;
+        width: 100px;
+
     }
 
 }
