@@ -8,10 +8,11 @@ import { MdOutlineLocalOffer } from 'react-icons/md';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 import logo from './logo.svg'
-function Header() {
+function Header(props) {
   return <div className='headerMain'>
     <div className='logoContainer'>
-      <a href='/home'><img id='logoIcon' src={logo} alt="loading" /></a>
+      <li><Link to="/home"><img id='logoIcon' src={logo} alt="loading" /></Link></li>
+      <h2>{props.myname}</h2>
     </div>
     <div className='nav-links'>
       <li><BiSearch /><Link to="/search">Search</Link></li>

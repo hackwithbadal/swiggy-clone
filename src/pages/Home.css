@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
+    justify-content: center;
 }
 .obj{
     display: flex;
@@ -35,14 +36,4 @@
 }
 .hotelDesc{
     margin: auto;
-}
-#ItemBtn{
-    margin: auto;
-    text-align: center;
-    padding: 30px 0px 40px 0px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.76);
-
-}
-#ItemBtn:hover{
-    color: orangered;
 }

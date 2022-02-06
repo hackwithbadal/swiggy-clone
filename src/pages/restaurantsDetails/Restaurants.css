@@ -47,7 +47,7 @@
 }
 
 .RestaurantsOffer{
-    height: 100px;
+    height: 200px;
     width: 320px;
     border: 1px solid rgba(255, 255, 255, 0.404);
 }
@@ -66,12 +66,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-#itemnames{
-    border-left: 1px solid rgba(0, 0, 0, 0.541);
-}
-#AddToCart{
-    border-right: 1px solid rgba(0, 0, 0, 0.575);
 }
 .ItemImage img{
     height: 100px;

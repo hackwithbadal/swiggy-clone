@@ -34,7 +34,7 @@
     width: fit-content;
     padding: 5px 10px 5px 10px;
 }
-#showOffer{
+.ShowOffer{
     background: transparent;
     /* color: orange; */
     border: 2px solid orange;
@@ -42,7 +42,7 @@
     padding: 10px;
     cursor: pointer;
 }
-#showOffer:hover{
+.ShowOffer:hover{
     background-color: rgba(255, 145, 0, 0.699);
     color: rgb(0, 0, 0);
     box-shadow: 0px 0px 3px black;
