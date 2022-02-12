@@ -86,7 +86,7 @@
     /* margin: 20px; */
     padding: 40px;
 }
-#CheckOutBtn{
+#CheckOutBtn ,#GoBtn{
     padding-top: 20px;
     height: 50px;
     width: 200px;
@@ -99,7 +99,7 @@
     height: 50px;
     width: 200px;
     color: ora;
-    background-color: rgba(236, 167, 38, 0.884);
+    background-color: rgba(214, 117, 37, 0.781);
     cursor: pointer;
 }
 #btn-rest:hover{
@@ -146,6 +146,14 @@
         height: 70px;
         width: 100px;
 
+    }
+    #CheckOutBtn ,#GoBtn{
+        padding-top: 20px;
+        height: 30px;
+        width: 120px;
+        color: white;
+        background-color: rgba(106, 160, 25, 0.884);
+        cursor: pointer;
     }
 
 }

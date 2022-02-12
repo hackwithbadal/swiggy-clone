@@ -29,7 +29,6 @@ function Home() {
           return ( 
 
             <div className='foodItem'>
-              <h6>{dar._id}</h6>
               <img src={dar.restaurants[0].imgurl} alt="loading" />
               <h3 className='HotelName'>{dar.restaurants[0].title}</h3>
               <p className='hotelDesc '>{dar.restaurants[0].rest_desc}</p>

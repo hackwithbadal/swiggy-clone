@@ -1,7 +1,7 @@
 .cartContainer{
     text-align: center;
     color: rgba(27, 27, 27, 0.897);
-    padding: 30px;
+    padding: 50px;
 }
 .cartContainer img{
     height: 300px;
@@ -36,6 +36,36 @@
     background-color: orange;
     color: whitesmoke;
 }
+#itemInCart{
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.itemNameCart,.IncDec,.AddItemToCart{
+    align-self: center;
+}
+#foodImage1{
+    height: 150px;
+    width: 150px;
+    margin: 0px;
+}
+.IncDec{
+    display: flex;
+    flex-direction: row;
+}
+#Inc,#Dec{
+    padding: 10px;
+    margin: 20px;
+}
+#CartValue{
+    align-self: center;
+}
+#btn-Cart{
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
 @media (max-width: 700px){
     .cart{
         font-size: 20px;
@@ -44,5 +74,21 @@
         height: 100px;
         width: 150px;
         margin: 20px;
+    }
+    #foodImage1{
+        height: 100px;
+        width: 100px;
+        margin: 0px;
+    }
+    #Inc,#Dec{
+        padding: 5px;
+        margin: 5px;
+    }
+    #CartValue{
+        align-self: center;
+    }
+    #btn-Cart{
+        width: 80px;
+        height: 30px;
     }
 }

@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import './Restaurants.css'
 
 function Restaurants1() {
-  const id = useSelector(state => state.id);
+  const id = useSelector(state => state.reducer.id);
   const alert = useAlert()
   function CallAlert() {
     alert.show("ADDED ITEM IN CART !!!")
@@ -126,29 +126,10 @@ function Restaurants1() {
       </div>
     </div>
     <div className='CheckOutBtn'>
-      <li id='CheckOutBtn'><Link to='/home'>← GO BACK</Link></li>
+      <li id='GoBtn'><Link to='/home'>← GO BACK</Link></li>
       <li id='CheckOutBtn'><Link to='/cart'>CHECK OUT →</Link></li>
     </div>
   </div>;
 }
 
 export default Restaurants1;
-
-{/* {
-        id.map(khof => {
-          return (
-            <div id='item1' >
-              <div className='itemName' id='itemnames'>
-                <h4>Veg Fried Rice</h4>
-                <p> ₨ 90</p>
-              </div>
-              <div className='ItemImage' id='ItemImage'>
-                <img src="https://hackwithbadal.github.io/foodImages/food1.jpg" alt="loading" />
-              </div>
-              <div className='AddToCart' id='AddToCart'>
-                <button id='btn' onClick={CallAlert}>ADD TO CART</button>
-              </div>
-            </div>
-          )
-        })
-      } */}
